@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Apple I</string>
+		<key>Year</key>
+		<string>April 1976</string>
+		<key>Image</key>
+		<string>appleI.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>The Apple I was Steven Wozniak&apos;s first contribution to the personal computer field. It was designed over a period of years, and was only built in printed circuit-board form when Steve Jobs insisted it could be sold. It debuted in April 1976 at the Homebrew Computer Club in Palo Alto, but few took it seriously. The Apple I was sold through several small retailers, and included only the circuit board.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Apple II</string>
+		<key>Year</key>
+		<string>April 1977</string>
+		<key>Image</key>
+		<string>appleII.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Built in 1977, the Apple II was based on Wozniak&apos;s Apple I design, but with several additions. The first was the design of a plastic case, a rarity at the time, which was painted beige. The second was the ability to display color graphics. The Apple II remained on the Apple product list until 1980.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Lisa/Lisa 2/XL</string>
+		<key>Year</key>
+		<string>January 1983</string>
+		<key>Image</key>
+		<string>lisa.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Named for one of its designer&apos;s daughters, the Lisa was supposed to be the Next Big Thing. It was the first personal computer to use a Graphical User Interface. Aimed mainly at large businesses, Apple said the Lisa would increase productivity by making computers easier to work with. When the Macintosh came out in 1984 for significantly less money, it eroded the Lisa&apos;s credibility further. Realizing this, Apple released the Lisa 2 at the same time as the Mac. In January 1985, the Lisa 2 was renamed the Macintosh XL. The XL was discontinued later that year.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Macintosh</string>
+		<key>Year</key>
+		<string>January 1984</string>
+		<key>Image</key>
+		<string>macintosh.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Released with much fanfare in January of 1984, the Macintosh was the first affordable computer to include a Graphical User Interface. The Mac came in a small beige case with a black and white monitor built in. It came with a keyboard and mouse, and had a floppy drive that took 400 kB 3.5&quot; disks, the first personal computer to do so.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>iMac</string>
+		<key>Year</key>
+		<string>August 1998</string>
+		<key>Image</key>
+		<string>imac.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in May 1998 and shipped in August, the iMac was Apple&apos;s computer for the new millennium. Aimed at the low-end consumer market and designed with the Internet in mind, the iMac was positioned by Apple as the most original new computer since the original Mac in 1984, and came in a stylish new case design, with translucent &quot;Bondi Blue&quot; plastics. It has seen several revisions during the past 12 years with design and specification changes, but it is still sold and widely spread as of today.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>iBook</string>
+		<key>Year</key>
+		<string>September 1999</string>
+		<key>Image</key>
+		<string>ibook.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in July 1999 at Macworld New York, the iBook was perhaps the most anxiously awaited Apple computer ever. Aimed at the same consumer market as it&apos;s big brother, the iMac, the iBook filled the 2x2 consumer/pro/desktop/portable matrix that Steve Jobs had first detailed more than a year earlier. Its specs closely resembled that of the iMac, with the same basic I/O options, and the same &quot;closed system&quot; concept. In order to bring the price down as far as possible, the design team removed the PC slots, IR, video-out and audio-in ports. 
+
+The iBook did have a number of semi-revolutionary features for such a low-end machine. It was the first Mac to include AGP-based graphics, and included a handle, a feature rarely seen in a portable. The iBook was the first Mac released using Unified Motherboard Architecture (UMA), which allowed Apple to standardize most motherboard components across all product lines.
+
+The most exciting new feature of the iBook was the inclusion of AirPort, a wireless networking system based on existing industry standards. AirPort allowed up to 10 iBooks to connect to a single base-station, which could then be plugged into an existing ethernet network or a standard phone line. The iBook had an antenna built into the case, and a PC-card sized slot for the AirPort card.
+
+While it was announced in July, the iBook did not ship until late-September, still in time for the back-to-school rush.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Power Macintosh G4 Cube</string>
+		<key>Year</key>
+		<string>July 2000</string>
+		<key>Image</key>
+		<string>cube.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in July 2000, the PowerMac G4 Cube introduced a dramatic new case design. Housed in an 8x8x8 cube, the G4 Cube combined the elegance of the iMac with the power of the PowerMac G4. The G4 Cube was a foray into the business market, as well as an answer to those who wanted an iMac-like machine, with more choice in monitors. The Cube was not nearly the success that Apple had hoped it would be. The consensus was that Apple had misjudged the market, making the Cube an expensive &quot;luxury&quot; computer instead of a cheaper monitor-less iMac.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>iPod</string>
+		<key>Year</key>
+		<string>October 2001</string>
+		<key>Image</key>
+		<string>ipod.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in October 2001, the iPod represented Apple&apos;s first strike into the digital music market. The iPod was a hard disk based digital music player that was smaller than most portable tape decks. Hard disk MP3 players had been in the marketplace for several years, but Apple distinguished the iPod from these players in several ways. The iPod could compete with both flash-based and hard disk based players: By using a 1.8&quot; hard disk, Apple was able to make the iPod smaller than most other hard disk MP3 players, small enough to go up against flash-based players, whose capacity was more than an order of magnitude less than the 5 GB available on the iPod. Apple believed the iPod represented the perfect compromise between size and storage capacity.
+
+In addition to its remarkable size and capacity, the iPod also had impressive industrial design, something which had been distinctly missing from other hard disk players in the marketplace. Apple took a simple hardware interface consisting of five buttons and a scroll wheel, and combined it with a simple user-interface based on OS X&apos;s column view.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Power Macintosh G5</string>
+		<key>Year</key>
+		<string>June 2003</string>
+		<key>Image</key>
+		<string>g5.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in June 2003, the PowerMac G5 was Apple&apos;s long-awaited fifth generation PowerPC-based machine. In an important move, Apple decided to break with Motorola, and used an IBM-designed processor. Motorola had been chronically delayed for both processor design and shipment, and was at least a year away from its fifth-generation PowerPC CPU. Apple and IBM had worked closely together for nearly a year of the PowerPC 970 Processor (publicly referred to as the G5), and the 64-bit PowerMac G5 represented a huge leap forward in both processor and machine design.
+
+Housed in an innovative new Aluminum enclosure, the PowerMac G5 was the first 64-bit consumer-level desktop computer ever sold.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Mac mini</string>
+		<key>Year</key>
+		<string>January 2005</string>
+		<key>Image</key>
+		<string>mini.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in January 2005 at MWSF, the Mac mini represented Apple&apos;s first real foray into the low-end consumer market, and Apple&apos;s first monitor-less consumer Mac in more than six years. Based around the basic motherboard design of the eMac (USB 2.0), the Mac mini packed an impressive feature set into a very small package, just two inches tall and 6.5 inches wide and deep. The rectangular case was reminiscent of the failed G4 Cube, the mistakes of which Apple seemed determined not to repeat with the mini.
+
+Whereas the Cube had been aimed at a high-end fetish market, the Mac mini was targeted specifically to PC owners, and was well-timed and well-positioned to increase Apple&apos;s marketshare. The Mac mini was an attempt to take advantage of the so-called &quot;halo effect&quot; that the iPod had created in the consumer space. </string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>MacBook</string>
+		<key>Year</key>
+		<string>May 2006</string>
+		<key>Image</key>
+		<string>macbook.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in May 2006, The MacBook replaced the existing 12- and 14-inch iBooks and 12-inch PowerBook model, completing the transition of Apple&apos;s portable computers to Intel Processors.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>iPhone</string>
+		<key>Year</key>
+		<string>January 2007</string>
+		<key>Image</key>
+		<string>iphone.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>Announced in January 2007 and released the following June, the iPhone marked Apple&apos;s entry into the cellular phone marketplace. Described by Steve Jobs as &quot;a wide-screen iPod with hand controls... a revolutionary mobile phone and a breakthrough Internet communications device,&quot; the iPhone was the first Apple-branded consumer device to run on OS X.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>iPad</string>
+		<key>Year</key>
+		<string>April 2010</string>
+		<key>Image</key>
+		<string>ipad.png</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Description</key>
+		<string>The iPad may have been the most widely anticipated Apple device ever. The years of speculation ended in January 2010, when Apple announced the iPad. Apple positioned the iPad as the first device in an entirely new market segment, making the claim that it would be better at many tasks than either smartphones or traditional laptops. The iPad included specially redesigned versions of the standard suite of iPhone applications, rebuilt from scratch to take advantage of the increased processing power and screen real estate. </string>
+	</dict>
+</array>
+</plist>

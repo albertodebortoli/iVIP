@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Childhood</string>
+		<key>Subtitle</key>
+		<string>1985-1995</string>
+		<key>Image</key>
+		<string>childhood</string>
+		<key>Description</key>
+		<string>Alberto was a very healthy child :)</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Teenager</string>
+		<key>Subtitle</key>
+		<string>1995-2005</string>
+		<key>Image</key>
+		<string>teenager</string>
+		<key>Description</key>
+		<string>Alberto liked to study music and computer :)</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>College</string>
+		<key>Subtitle</key>
+		<string>2005-2010</string>
+		<key>Image</key>
+		<string>college</string>
+		<key>Description</key>
+		<string>Alberto studied Computer Science at the University of Padua and master graduated.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Jobs</string>
+		<key>Subtitle</key>
+		<string>2011-nowadays</string>
+		<key>Image</key>
+		<string>jobs</string>
+		<key>Description</key>
+		<string>Alberto started working in H-umus (H-Farm) as iOS developer.</string>
+	</dict>
+</array>
+</plist>

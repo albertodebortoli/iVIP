@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5501ADF3116F552D0085A394 /* SCSegmentColorScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 5501ADF2116F552D0085A394 /* SCSegmentColorScheme.h */; };
+		55031A8511C26ABB00143777 /* UIApplication+UniversalApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 55031A8311C26ABB00143777 /* UIApplication+UniversalApp.h */; };
+		55031A8611C26ABB00143777 /* UIApplication+UniversalApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 55031A8411C26ABB00143777 /* UIApplication+UniversalApp.m */; };
+		55031B3711C2B03B00143777 /* UIApplication+LocalNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 55031B3511C2B03B00143777 /* UIApplication+LocalNotifications.h */; };
+		55031B3811C2B03B00143777 /* UIApplication+LocalNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 55031B3611C2B03B00143777 /* UIApplication+LocalNotifications.m */; };
+		550320DB11CA8D0C00143777 /* UIImage+UniversalApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 550320D911CA8D0C00143777 /* UIImage+UniversalApp.h */; };
+		550320DC11CA8D0C00143777 /* UIImage+UniversalApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 550320DA11CA8D0C00143777 /* UIImage+UniversalApp.m */; };
+		551490A01149012600B7E4DA /* SCRadioCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514909C1149012600B7E4DA /* SCRadioCell.h */; };
+		551490A11149012600B7E4DA /* SCRadioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5514909D1149012600B7E4DA /* SCRadioCell.m */; };
+		551490A21149012600B7E4DA /* SCRadioController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514909E1149012600B7E4DA /* SCRadioController.h */; };
+		551490A31149012600B7E4DA /* SCRadioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5514909F1149012600B7E4DA /* SCRadioController.m */; };
+		55149458114A74FC00B7E4DA /* SCFooterLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 55149456114A74FC00B7E4DA /* SCFooterLabel.h */; };
+		55149459114A74FC00B7E4DA /* SCFooterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55149457114A74FC00B7E4DA /* SCFooterLabel.m */; };
+		5530E13D11406149004E436A /* SCSymbolicProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5530E13B11406149004E436A /* SCSymbolicProgressBar.h */; };
+		5530E13E11406149004E436A /* SCSymbolicProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5530E13C11406149004E436A /* SCSymbolicProgressBar.m */; };
+		5553ADE0114FB58D0088FC57 /* SCActivityIndicatorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5553ADDE114FB58D0088FC57 /* SCActivityIndicatorCell.h */; };
+		5553ADE1114FB58D0088FC57 /* SCActivityIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5553ADDF114FB58D0088FC57 /* SCActivityIndicatorCell.m */; };
+		555A3A4C114D4FA00040850F /* NSError+SCMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 555A3A4A114D4FA00040850F /* NSError+SCMethods.h */; };
+		555A3A4D114D4FA00040850F /* NSError+SCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A3A4B114D4FA00040850F /* NSError+SCMethods.m */; };
+		555A3A87114D605F0040850F /* UIAlertView+SCMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 555A3A85114D605F0040850F /* UIAlertView+SCMethods.h */; };
+		555A3A88114D605F0040850F /* UIAlertView+SCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A3A86114D605F0040850F /* UIAlertView+SCMethods.m */; };
+		5588F71B11197177002BF56E /* SCMemoryManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5588F71611197177002BF56E /* SCMemoryManagement.h */; };
+		5588F71C11197177002BF56E /* SCRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5588F71711197177002BF56E /* SCRatingView.h */; };
+		5588F71D11197177002BF56E /* SCRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5588F71811197177002BF56E /* SCRatingView.m */; };
+		5588F72111197407002BF56E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5588F72011197407002BF56E /* UIKit.framework */; };
+		5588F74C1119773C002BF56E /* SCGrfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 5588F73E1119773C002BF56E /* SCGrfx.h */; };
+		5588F74D1119773C002BF56E /* SCGrfx.m in Sources */ = {isa = PBXBuildFile; fileRef = 5588F73F1119773C002BF56E /* SCGrfx.m */; };
+		5588F75E1119774D002BF56E /* SCViewSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5588F75A1119774D002BF56E /* SCViewSlider.h */; };
+		5588F75F1119774D002BF56E /* SCViewSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5588F75B1119774D002BF56E /* SCViewSlider.m */; };
+		5588F7601119774D002BF56E /* SCVoiceMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5588F75C1119774D002BF56E /* SCVoiceMeter.h */; };
+		5588F7611119774D002BF56E /* SCVoiceMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5588F75D1119774D002BF56E /* SCVoiceMeter.m */; };
+		5588F76611197BBF002BF56E /* NSString+SCMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 5588F76411197BBF002BF56E /* NSString+SCMethods.h */; };
+		5588F76711197BBF002BF56E /* NSString+SCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5588F76511197BBF002BF56E /* NSString+SCMethods.m */; };
+		5588F79911197DFC002BF56E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5588F79811197DFC002BF56E /* AVFoundation.framework */; };
+		5588F7A311197E0D002BF56E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5588F7A211197E0D002BF56E /* AudioToolbox.framework */; };
+		5588F7B311197E9A002BF56E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5588F7B211197E9A002BF56E /* CFNetwork.framework */; };
+		559FC9B6111AE3F500A3A532 /* SCSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 559FC9B2111AE3F500A3A532 /* SCSegment.h */; };
+		559FC9B7111AE3F500A3A532 /* SCSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 559FC9B3111AE3F500A3A532 /* SCSegment.m */; };
+		559FC9B8111AE3F500A3A532 /* SCSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 559FC9B4111AE3F500A3A532 /* SCSegmentedControl.h */; };
+		559FC9B9111AE3F500A3A532 /* SCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 559FC9B5111AE3F500A3A532 /* SCSegmentedControl.m */; };
+		55A111A411383C5200810178 /* SCSettingsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A111A211383C5200810178 /* SCSettingsService.h */; };
+		55A111A511383C5200810178 /* SCSettingsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A111A311383C5200810178 /* SCSettingsService.m */; };
+		55A111A811383C5F00810178 /* SCAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A111A611383C5F00810178 /* SCAppDelegate.h */; };
+		55A111A911383C5F00810178 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A111A711383C5F00810178 /* SCAppDelegate.m */; };
+		55A55C0E1125E4DF0035CFBA /* SCTabOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A55C0C1125E4DF0035CFBA /* SCTabOrder.h */; };
+		55A55C0F1125E4DF0035CFBA /* SCTabOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A55C0D1125E4DF0035CFBA /* SCTabOrder.m */; };
+		55AD3975112D681F00E70986 /* SCTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AD3973112D681F00E70986 /* SCTextFieldCell.h */; };
+		55AD3976112D681F00E70986 /* SCTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AD3974112D681F00E70986 /* SCTextFieldCell.m */; };
+		55AD3982112D733D00E70986 /* SCColorScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AD3981112D733D00E70986 /* SCColorScheme.h */; };
+		55AD3A4F112D92BD00E70986 /* SCSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AD3A4D112D92BD00E70986 /* SCSwitchCell.h */; };
+		55AD3A50112D92BD00E70986 /* SCSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AD3A4E112D92BD00E70986 /* SCSwitchCell.m */; };
+		55B66083115B7087009F3D3B /* UIActionSheet+SCMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B66081115B7087009F3D3B /* UIActionSheet+SCMethods.h */; };
+		55B66084115B7087009F3D3B /* UIActionSheet+SCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B66082115B7087009F3D3B /* UIActionSheet+SCMethods.m */; };
+		55E466F211203605000B710E /* NSMutableArray+SCQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E466F011203605000B710E /* NSMutableArray+SCQueue.h */; };
+		55E466F311203605000B710E /* NSMutableArray+SCQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E466F111203605000B710E /* NSMutableArray+SCQueue.m */; };
+		55E46A471120A786000B710E /* SCLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E46A461120A786000B710E /* SCLog.h */; };
+		AA747D9F0F9514B9006C5449 /* TouchCustoms_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TouchCustoms_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5501ADF2116F552D0085A394 /* SCSegmentColorScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSegmentColorScheme.h; path = Classes/SCSegmentColorScheme.h; sourceTree = "<group>"; };
+		55031A8311C26ABB00143777 /* UIApplication+UniversalApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+UniversalApp.h"; path = "Classes/UIApplication+UniversalApp.h"; sourceTree = "<group>"; };
+		55031A8411C26ABB00143777 /* UIApplication+UniversalApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+UniversalApp.m"; path = "Classes/UIApplication+UniversalApp.m"; sourceTree = "<group>"; };
+		55031B3511C2B03B00143777 /* UIApplication+LocalNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+LocalNotifications.h"; path = "Classes/UIApplication+LocalNotifications.h"; sourceTree = "<group>"; };
+		55031B3611C2B03B00143777 /* UIApplication+LocalNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+LocalNotifications.m"; path = "Classes/UIApplication+LocalNotifications.m"; sourceTree = "<group>"; };
+		550320D911CA8D0C00143777 /* UIImage+UniversalApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+UniversalApp.h"; path = "Classes/UIImage+UniversalApp.h"; sourceTree = "<group>"; };
+		550320DA11CA8D0C00143777 /* UIImage+UniversalApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+UniversalApp.m"; path = "Classes/UIImage+UniversalApp.m"; sourceTree = "<group>"; };
+		5514909C1149012600B7E4DA /* SCRadioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRadioCell.h; path = Classes/SCRadioCell.h; sourceTree = "<group>"; };
+		5514909D1149012600B7E4DA /* SCRadioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRadioCell.m; path = Classes/SCRadioCell.m; sourceTree = "<group>"; };
+		5514909E1149012600B7E4DA /* SCRadioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRadioController.h; path = Classes/SCRadioController.h; sourceTree = "<group>"; };
+		5514909F1149012600B7E4DA /* SCRadioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRadioController.m; path = Classes/SCRadioController.m; sourceTree = "<group>"; };
+		55149456114A74FC00B7E4DA /* SCFooterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCFooterLabel.h; path = Classes/SCFooterLabel.h; sourceTree = "<group>"; };
+		55149457114A74FC00B7E4DA /* SCFooterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCFooterLabel.m; path = Classes/SCFooterLabel.m; sourceTree = "<group>"; };
+		5530E13B11406149004E436A /* SCSymbolicProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSymbolicProgressBar.h; path = Classes/SCSymbolicProgressBar.h; sourceTree = "<group>"; };
+		5530E13C11406149004E436A /* SCSymbolicProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSymbolicProgressBar.m; path = Classes/SCSymbolicProgressBar.m; sourceTree = "<group>"; };
+		5553ADDE114FB58D0088FC57 /* SCActivityIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCActivityIndicatorCell.h; path = Classes/SCActivityIndicatorCell.h; sourceTree = "<group>"; };
+		5553ADDF114FB58D0088FC57 /* SCActivityIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCActivityIndicatorCell.m; path = Classes/SCActivityIndicatorCell.m; sourceTree = "<group>"; };
+		555A3A4A114D4FA00040850F /* NSError+SCMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+SCMethods.h"; path = "Classes/NSError+SCMethods.h"; sourceTree = "<group>"; };
+		555A3A4B114D4FA00040850F /* NSError+SCMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+SCMethods.m"; path = "Classes/NSError+SCMethods.m"; sourceTree = "<group>"; };
+		555A3A85114D605F0040850F /* UIAlertView+SCMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SCMethods.h"; path = "Classes/UIAlertView+SCMethods.h"; sourceTree = "<group>"; };
+		555A3A86114D605F0040850F /* UIAlertView+SCMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SCMethods.m"; path = "Classes/UIAlertView+SCMethods.m"; sourceTree = "<group>"; };
+		5588F71611197177002BF56E /* SCMemoryManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCMemoryManagement.h; path = Classes/SCMemoryManagement.h; sourceTree = "<group>"; };
+		5588F71711197177002BF56E /* SCRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRatingView.h; path = Classes/SCRatingView.h; sourceTree = "<group>"; };
+		5588F71811197177002BF56E /* SCRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRatingView.m; path = Classes/SCRatingView.m; sourceTree = "<group>"; };
+		5588F72011197407002BF56E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5588F73E1119773C002BF56E /* SCGrfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCGrfx.h; path = Classes/SCGrfx.h; sourceTree = "<group>"; };
+		5588F73F1119773C002BF56E /* SCGrfx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCGrfx.m; path = Classes/SCGrfx.m; sourceTree = "<group>"; };
+		5588F75A1119774D002BF56E /* SCViewSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewSlider.h; path = Classes/SCViewSlider.h; sourceTree = "<group>"; };
+		5588F75B1119774D002BF56E /* SCViewSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCViewSlider.m; path = Classes/SCViewSlider.m; sourceTree = "<group>"; };
+		5588F75C1119774D002BF56E /* SCVoiceMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCVoiceMeter.h; path = Classes/SCVoiceMeter.h; sourceTree = "<group>"; };
+		5588F75D1119774D002BF56E /* SCVoiceMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCVoiceMeter.m; path = Classes/SCVoiceMeter.m; sourceTree = "<group>"; };
+		5588F76411197BBF002BF56E /* NSString+SCMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SCMethods.h"; path = "Classes/NSString+SCMethods.h"; sourceTree = "<group>"; };
+		5588F76511197BBF002BF56E /* NSString+SCMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SCMethods.m"; path = "Classes/NSString+SCMethods.m"; sourceTree = "<group>"; };
+		5588F79811197DFC002BF56E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5588F7A211197E0D002BF56E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5588F7B211197E9A002BF56E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		559FC9B2111AE3F500A3A532 /* SCSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSegment.h; path = Classes/SCSegment.h; sourceTree = "<group>"; };
+		559FC9B3111AE3F500A3A532 /* SCSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSegment.m; path = Classes/SCSegment.m; sourceTree = "<group>"; };
+		559FC9B4111AE3F500A3A532 /* SCSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSegmentedControl.h; path = Classes/SCSegmentedControl.h; sourceTree = "<group>"; };
+		559FC9B5111AE3F500A3A532 /* SCSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSegmentedControl.m; path = Classes/SCSegmentedControl.m; sourceTree = "<group>"; };
+		55A111A211383C5200810178 /* SCSettingsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSettingsService.h; path = Classes/SCSettingsService.h; sourceTree = "<group>"; };
+		55A111A311383C5200810178 /* SCSettingsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSettingsService.m; path = Classes/SCSettingsService.m; sourceTree = "<group>"; };
+		55A111A611383C5F00810178 /* SCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCAppDelegate.h; path = Classes/SCAppDelegate.h; sourceTree = "<group>"; };
+		55A111A711383C5F00810178 /* SCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCAppDelegate.m; path = Classes/SCAppDelegate.m; sourceTree = "<group>"; };
+		55A55C0C1125E4DF0035CFBA /* SCTabOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCTabOrder.h; path = Classes/SCTabOrder.h; sourceTree = "<group>"; };
+		55A55C0D1125E4DF0035CFBA /* SCTabOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCTabOrder.m; path = Classes/SCTabOrder.m; sourceTree = "<group>"; };
+		55AD3973112D681F00E70986 /* SCTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCTextFieldCell.h; path = Classes/SCTextFieldCell.h; sourceTree = "<group>"; };
+		55AD3974112D681F00E70986 /* SCTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCTextFieldCell.m; path = Classes/SCTextFieldCell.m; sourceTree = "<group>"; };
+		55AD3981112D733D00E70986 /* SCColorScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCColorScheme.h; path = Classes/SCColorScheme.h; sourceTree = "<group>"; };
+		55AD3A4D112D92BD00E70986 /* SCSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSwitchCell.h; path = Classes/SCSwitchCell.h; sourceTree = "<group>"; };
+		55AD3A4E112D92BD00E70986 /* SCSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSwitchCell.m; path = Classes/SCSwitchCell.m; sourceTree = "<group>"; };
+		55B66081115B7087009F3D3B /* UIActionSheet+SCMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+SCMethods.h"; path = "Classes/UIActionSheet+SCMethods.h"; sourceTree = "<group>"; };
+		55B66082115B7087009F3D3B /* UIActionSheet+SCMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+SCMethods.m"; path = "Classes/UIActionSheet+SCMethods.m"; sourceTree = "<group>"; };
+		55E466F011203605000B710E /* NSMutableArray+SCQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SCQueue.h"; path = "Classes/NSMutableArray+SCQueue.h"; sourceTree = "<group>"; };
+		55E466F111203605000B710E /* NSMutableArray+SCQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SCQueue.m"; path = "Classes/NSMutableArray+SCQueue.m"; sourceTree = "<group>"; };
+		55E46A461120A786000B710E /* SCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLog.h; path = Classes/SCLog.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TouchCustoms_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchCustoms_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTouchCustoms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchCustoms.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34FDA9C11EFBA990050806F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				5588F72111197407002BF56E /* UIKit.framework in Frameworks */,
+				5588F79911197DFC002BF56E /* AVFoundation.framework in Frameworks */,
+				5588F7A311197E0D002BF56E /* AudioToolbox.framework in Frameworks */,
+				5588F7B311197E9A002BF56E /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTouchCustoms.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TouchCustoms */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TouchCustoms;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5588F79811197DFC002BF56E /* AVFoundation.framework */,
+				5588F7A211197E0D002BF56E /* AudioToolbox.framework */,
+				5588F7B211197E9A002BF56E /* CFNetwork.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				5588F72011197407002BF56E /* UIKit.framework */,
+				D34FDA9C11EFBA990050806F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				551490981149008200B7E4DA /* Graphics */,
+				55149099114900A200B7E4DA /* Indicators */,
+				5588F79611197DB4002BF56E /* Screen Stuff */,
+				5514909A114900BC00B7E4DA /* Selectors */,
+				55A1118A1138391F00810178 /* Settings */,
+				5514909B114900E400B7E4DA /* TableView Stuff */,
+				555A3A4A114D4FA00040850F /* NSError+SCMethods.h */,
+				555A3A4B114D4FA00040850F /* NSError+SCMethods.m */,
+				55E466F011203605000B710E /* NSMutableArray+SCQueue.h */,
+				55E466F111203605000B710E /* NSMutableArray+SCQueue.m */,
+				5588F76411197BBF002BF56E /* NSString+SCMethods.h */,
+				5588F76511197BBF002BF56E /* NSString+SCMethods.m */,
+				55A111A611383C5F00810178 /* SCAppDelegate.h */,
+				55A111A711383C5F00810178 /* SCAppDelegate.m */,
+				55E46A461120A786000B710E /* SCLog.h */,
+				5588F71611197177002BF56E /* SCMemoryManagement.h */,
+				55AD3981112D733D00E70986 /* SCColorScheme.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TouchCustoms_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		551490981149008200B7E4DA /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				5588F73E1119773C002BF56E /* SCGrfx.h */,
+				5588F73F1119773C002BF56E /* SCGrfx.m */,
+				550320D911CA8D0C00143777 /* UIImage+UniversalApp.h */,
+				550320DA11CA8D0C00143777 /* UIImage+UniversalApp.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		55149099114900A200B7E4DA /* Indicators */ = {
+			isa = PBXGroup;
+			children = (
+				5530E13B11406149004E436A /* SCSymbolicProgressBar.h */,
+				5530E13C11406149004E436A /* SCSymbolicProgressBar.m */,
+				5588F71711197177002BF56E /* SCRatingView.h */,
+				5588F71811197177002BF56E /* SCRatingView.m */,
+				5588F75C1119774D002BF56E /* SCVoiceMeter.h */,
+				5588F75D1119774D002BF56E /* SCVoiceMeter.m */,
+			);
+			name = Indicators;
+			sourceTree = "<group>";
+		};
+		5514909A114900BC00B7E4DA /* Selectors */ = {
+			isa = PBXGroup;
+			children = (
+				5514909C1149012600B7E4DA /* SCRadioCell.h */,
+				5514909D1149012600B7E4DA /* SCRadioCell.m */,
+				5514909E1149012600B7E4DA /* SCRadioController.h */,
+				5514909F1149012600B7E4DA /* SCRadioController.m */,
+				5501ADF2116F552D0085A394 /* SCSegmentColorScheme.h */,
+				559FC9B2111AE3F500A3A532 /* SCSegment.h */,
+				559FC9B3111AE3F500A3A532 /* SCSegment.m */,
+				559FC9B4111AE3F500A3A532 /* SCSegmentedControl.h */,
+				559FC9B5111AE3F500A3A532 /* SCSegmentedControl.m */,
+			);
+			name = Selectors;
+			sourceTree = "<group>";
+		};
+		5514909B114900E400B7E4DA /* TableView Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				5553ADDE114FB58D0088FC57 /* SCActivityIndicatorCell.h */,
+				5553ADDF114FB58D0088FC57 /* SCActivityIndicatorCell.m */,
+				55149456114A74FC00B7E4DA /* SCFooterLabel.h */,
+				55149457114A74FC00B7E4DA /* SCFooterLabel.m */,
+				55AD3A4D112D92BD00E70986 /* SCSwitchCell.h */,
+				55AD3A4E112D92BD00E70986 /* SCSwitchCell.m */,
+				55AD3973112D681F00E70986 /* SCTextFieldCell.h */,
+				55AD3974112D681F00E70986 /* SCTextFieldCell.m */,
+			);
+			name = "TableView Stuff";
+			sourceTree = "<group>";
+		};
+		5588F79611197DB4002BF56E /* Screen Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				55A55C0C1125E4DF0035CFBA /* SCTabOrder.h */,
+				55A55C0D1125E4DF0035CFBA /* SCTabOrder.m */,
+				5588F75A1119774D002BF56E /* SCViewSlider.h */,
+				5588F75B1119774D002BF56E /* SCViewSlider.m */,
+				55B66081115B7087009F3D3B /* UIActionSheet+SCMethods.h */,
+				55B66082115B7087009F3D3B /* UIActionSheet+SCMethods.m */,
+				555A3A85114D605F0040850F /* UIAlertView+SCMethods.h */,
+				555A3A86114D605F0040850F /* UIAlertView+SCMethods.m */,
+				55031A8311C26ABB00143777 /* UIApplication+UniversalApp.h */,
+				55031A8411C26ABB00143777 /* UIApplication+UniversalApp.m */,
+				55031B3511C2B03B00143777 /* UIApplication+LocalNotifications.h */,
+				55031B3611C2B03B00143777 /* UIApplication+LocalNotifications.m */,
+			);
+			name = "Screen Stuff";
+			sourceTree = "<group>";
+		};
+		55A1118A1138391F00810178 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				55A111A211383C5200810178 /* SCSettingsService.h */,
+				55A111A311383C5200810178 /* SCSettingsService.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* TouchCustoms_Prefix.pch in Headers */,
+				5588F71B11197177002BF56E /* SCMemoryManagement.h in Headers */,
+				5588F71C11197177002BF56E /* SCRatingView.h in Headers */,
+				5588F74C1119773C002BF56E /* SCGrfx.h in Headers */,
+				5588F75E1119774D002BF56E /* SCViewSlider.h in Headers */,
+				5588F7601119774D002BF56E /* SCVoiceMeter.h in Headers */,
+				5588F76611197BBF002BF56E /* NSString+SCMethods.h in Headers */,
+				559FC9B6111AE3F500A3A532 /* SCSegment.h in Headers */,
+				559FC9B8111AE3F500A3A532 /* SCSegmentedControl.h in Headers */,
+				55E466F211203605000B710E /* NSMutableArray+SCQueue.h in Headers */,
+				55E46A471120A786000B710E /* SCLog.h in Headers */,
+				55A55C0E1125E4DF0035CFBA /* SCTabOrder.h in Headers */,
+				55AD3975112D681F00E70986 /* SCTextFieldCell.h in Headers */,
+				55AD3982112D733D00E70986 /* SCColorScheme.h in Headers */,
+				55AD3A4F112D92BD00E70986 /* SCSwitchCell.h in Headers */,
+				55A111A411383C5200810178 /* SCSettingsService.h in Headers */,
+				55A111A811383C5F00810178 /* SCAppDelegate.h in Headers */,
+				5530E13D11406149004E436A /* SCSymbolicProgressBar.h in Headers */,
+				551490A01149012600B7E4DA /* SCRadioCell.h in Headers */,
+				551490A21149012600B7E4DA /* SCRadioController.h in Headers */,
+				55149458114A74FC00B7E4DA /* SCFooterLabel.h in Headers */,
+				555A3A4C114D4FA00040850F /* NSError+SCMethods.h in Headers */,
+				555A3A87114D605F0040850F /* UIAlertView+SCMethods.h in Headers */,
+				5553ADE0114FB58D0088FC57 /* SCActivityIndicatorCell.h in Headers */,
+				55B66083115B7087009F3D3B /* UIActionSheet+SCMethods.h in Headers */,
+				5501ADF3116F552D0085A394 /* SCSegmentColorScheme.h in Headers */,
+				55031A8511C26ABB00143777 /* UIApplication+UniversalApp.h in Headers */,
+				55031B3711C2B03B00143777 /* UIApplication+LocalNotifications.h in Headers */,
+				550320DB11CA8D0C00143777 /* UIImage+UniversalApp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* TouchCustoms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TouchCustoms" */;
+			buildPhases = (
+				55E6688E113CF8E4003AF287 /* Resources */,
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchCustoms;
+			productName = TouchCustoms;
+			productReference = D2AAC07E0554694100DB518D /* libTouchCustoms.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TouchCustoms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* TouchCustoms */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* TouchCustoms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E6688E113CF8E4003AF287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5588F71D11197177002BF56E /* SCRatingView.m in Sources */,
+				5588F74D1119773C002BF56E /* SCGrfx.m in Sources */,
+				5588F75F1119774D002BF56E /* SCViewSlider.m in Sources */,
+				5588F7611119774D002BF56E /* SCVoiceMeter.m in Sources */,
+				5588F76711197BBF002BF56E /* NSString+SCMethods.m in Sources */,
+				559FC9B7111AE3F500A3A532 /* SCSegment.m in Sources */,
+				559FC9B9111AE3F500A3A532 /* SCSegmentedControl.m in Sources */,
+				55E466F311203605000B710E /* NSMutableArray+SCQueue.m in Sources */,
+				55A55C0F1125E4DF0035CFBA /* SCTabOrder.m in Sources */,
+				55AD3976112D681F00E70986 /* SCTextFieldCell.m in Sources */,
+				55AD3A50112D92BD00E70986 /* SCSwitchCell.m in Sources */,
+				55A111A511383C5200810178 /* SCSettingsService.m in Sources */,
+				55A111A911383C5F00810178 /* SCAppDelegate.m in Sources */,
+				5530E13E11406149004E436A /* SCSymbolicProgressBar.m in Sources */,
+				551490A11149012600B7E4DA /* SCRadioCell.m in Sources */,
+				551490A31149012600B7E4DA /* SCRadioController.m in Sources */,
+				55149459114A74FC00B7E4DA /* SCFooterLabel.m in Sources */,
+				555A3A4D114D4FA00040850F /* NSError+SCMethods.m in Sources */,
+				555A3A88114D605F0040850F /* UIAlertView+SCMethods.m in Sources */,
+				5553ADE1114FB58D0088FC57 /* SCActivityIndicatorCell.m in Sources */,
+				55B66084115B7087009F3D3B /* UIActionSheet+SCMethods.m in Sources */,
+				55031A8611C26ABB00143777 /* UIApplication+UniversalApp.m in Sources */,
+				55031B3811C2B03B00143777 /* UIApplication+LocalNotifications.m in Sources */,
+				550320DC11CA8D0C00143777 /* UIImage+UniversalApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/TouchCustoms.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchCustoms_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "SC_LOG_LEVEL=2";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PRODUCT_NAME = TouchCustoms;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/TouchCustoms.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchCustoms_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "SC_LOG_LEVEL=2";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PRODUCT_NAME = TouchCustoms;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TouchCustoms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TouchCustoms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

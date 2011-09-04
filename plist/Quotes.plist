@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Citation</key>
+		<string>Well: 16 chars length master password, if a hacker stole my encrypted db and Google starts brute force 24/7 w/ all its googleware making 10.000.000.000 attempts per second, they will find out my password in 393.845.332.084.420.000.000.000 days. I can risk.
+</string>
+		<key>Year</key>
+		<string>decembre 2010</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>from &quot;Understanding Password Strength&quot;</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>I don&apos;t ask. I query.</string>
+		<key>Year</key>
+		<string>november 2010</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>friends</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>Never change a winning team. Never change a compiling code.</string>
+		<key>Year</key>
+		<string>2009</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>friends with alcohol</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>There&apos;s something recursive in a guy that ask you what RTFM mean. </string>
+		<key>Year</key>
+		<string>2011</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>a hard evening</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>Modern housewife means MILF</string>
+		<key>Year</key>
+		<string>2010</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>-.-</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>The developer job is NP-Hard</string>
+		<key>Year</key>
+		<string>march 2011</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>working on master thesis</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>Working with these kind of abstractions on Rails and Mongoid makes me feel like a prisoner in the Plato&apos;s cave.</string>
+		<key>Year</key>
+		<string>february 2011</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>xkcd.org</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>I&apos;ve just remember to have forgotten</string>
+		<key>Year</key>
+		<string>1993</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>&quot;Format&quot;, this almost deprecated word...</string>
+		<key>Year</key>
+		<string>2009</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string> using Mac OS X</string>
+	</dict>
+	<dict>
+		<key>Citation</key>
+		<string>Just typed cmd+tab to read your bullshit on Skype...</string>
+		<key>Year</key>
+		<string>2011</string>
+		<key>Rating</key>
+		<integer>0</integer>
+		<key>Source</key>
+		<string>friends on Skype</string>
+	</dict>
+</array>
+</plist>

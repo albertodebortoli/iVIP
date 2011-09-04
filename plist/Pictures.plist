@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Computer Science Degree</string>
+		<key>Images</key>
+		<integer>8</integer>
+		<key>Abbreviation</key>
+		<string>degree</string>
+		<key>Icon</key>
+		<string>degreeIcon</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Music and live concerts</string>
+		<key>Images</key>
+		<integer>11</integer>
+		<key>Abbreviation</key>
+		<string>music</string>
+		<key>Icon</key>
+		<string>musicIcon</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>H-Farm</string>
+		<key>Images</key>
+		<integer>8</integer>
+		<key>Abbreviation</key>
+		<string>h-farm</string>
+		<key>Icon</key>
+		<string>h-farmIcon</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Funny moments</string>
+		<key>Images</key>
+		<integer>4</integer>
+		<key>Abbreviation</key>
+		<string>funny</string>
+		<key>Icon</key>
+		<string>funnyIcon</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Various stuff</string>
+		<key>Images</key>
+		<integer>5</integer>
+		<key>Abbreviation</key>
+		<string>various</string>
+		<key>Icon</key>
+		<string>variousIcon</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Cheap art</string>
+		<key>Images</key>
+		<integer>6</integer>
+		<key>Abbreviation</key>
+		<string>art</string>
+		<key>Icon</key>
+		<string>artIcon</string>
+	</dict>
+</array>
+</plist>

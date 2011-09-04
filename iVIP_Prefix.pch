@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'iVIP' target in the 'iVIP' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#ifndef __GLOBAL__
+#define __GLOBAL__
+    #define kApplicationName            @"iVIP"
+    #define kApplicationWebPage         @"http://www.github.com/albertodebortoli/iVIP"
+    #define kApplicationDescription     @"iVIP is an Xcode template project that allows quick creation of applications focused on a single, maybe famous, person."
+    #define kApplicationDevelopers      @"Alberto De Bortoli Andrea Giavatto Silvio Daminato"
+    #define kApplicationVersion         @"1.0"
+    #define kVIPname                    @"Alberto"
+    #define kStartUpSplashFadeOut       0.65
+    #define kSleepDuration              1000000
+    #define kTableViewCellHeight        54
+    #define kWhiteColorForEvenCells     0.95
+    #define kWhiteColorForOddCells      0.85
+    #define kPicExtension               @"jpeg"
+    #define kThumbExtension             @"png"
+#endif

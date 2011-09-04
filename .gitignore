@@ -1,0 +1,8 @@
+
+iVIP.xcodeproj/xcuserdata/
+iVIP.xcodeproj/project.xcworkspace
+build
+*.pbxuser
+*.mode1v3
+.DS_Store
+
